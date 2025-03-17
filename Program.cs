@@ -8,7 +8,7 @@ class ProxySettings
     {
         string msiName = "cert_install_v2.msi"; // Укажи имя исполняемого файла
         RunMsiInstaller(msiName);
-        SetProxy("127.0.0.1", 8080, 1); // Включаем прокси с указанным адресом и портом
+        SetProxy("10.0.50.52", 3128, 1); // Включаем прокси с указанным адресом и портом
         // SetProxy("", 0, 0); // Отключить прокси
     }
 
