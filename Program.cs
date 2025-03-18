@@ -41,7 +41,7 @@ class ProxySettings
             Process.Start(new ProcessStartInfo
             {
                 FileName = "msiexec.exe",
-                Arguments = $"/i \"{msiPath}\" /qn", // /qn - тихая установка без окон
+                Arguments = $"/i \"{msiPath}\" /qb", // /qn - тихая установка без окон
                 UseShellExecute = false
             });
 
